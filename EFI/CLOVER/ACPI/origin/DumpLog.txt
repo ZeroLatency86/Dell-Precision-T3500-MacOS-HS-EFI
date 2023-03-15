@@ -1,0 +1,72 @@
+20:100  12:256  Found BIOS RSDP at FEC30
+20:100  0:000  Saving ACPI tables from RSDP FEC30 to EFI\CLOVER\ACPI\origin ...
+20:100  0:000   FEC30: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+20:152  0:051    (Xsdt: FCCC7, Rsdt: FCC73)
+20:152  0:000    FCCC7: 'XSDT', 'B10K', Rev: 1, Len: 124 -> XSDT.aml
+20:161  0:009    FCC73: 'RSDT', 'B10K', Rev: 1, Len: 80 -> RSDT.aml
+20:171  0:010    Tables in Xsdt: 11
+20:171  0:000    0. FCDB7: 'FACP', 'B10K', Rev: 3, Len: 244 -> FACP.aml
+20:181  0:009        (Dsdt: FFE9E952, Facs: DFDF9C00, XDsdt: FFE9E952, XFacs: DFDF9C00)
+20:181  0:000        FFE9E952: 'DSDT', 'dt_ex', Rev: 1, Len: 19060 -> DSDT.aml
+21:105  0:924        DFDF9C00: 'FACS', Ver: 0, Len: 64 -> FACS.aml
+21:114  0:009    1. FFEA34D7: 'SSDT', 'st_ex', Rev: 1, Len: 156 -> SSDT-0-st_ex.aml
+21:131  0:017    2. FCEAB: 'APIC', 'B10K', Rev: 1, Len: 350 -> APIC.aml
+21:141  0:009    3. FD009: 'BOOT', 'B10K', Rev: 1, Len: 40 -> BOOT.aml
+21:151  0:010    4. FD031: 'ASF!', 'B10K', Rev: 32, Len: 150 -> ASF!.aml
+21:162  0:010    5. FD0C7: 'MCFG', 'B10K', Rev: 1, Len: 60 -> MCFG.aml
+21:173  0:011    6. FD103: 'HPET', 'B10K', Rev: 1, Len: 56 -> HPET.aml
+21:184  0:010    7. FD35F: 'TCPA', 'B10K', Rev: 1, Len: 50 -> TCPA.aml
+21:207  0:022    8. FD391: '____', 'B10K', Rev: 1, Len: 48 -> ____.aml
+21:217  0:010    9. FD13B: 'SLIC', 'B10K', Rev: 1, Len: 374 -> SLIC.aml
+21:228  0:010    10. DFE4DC00: 'SSDT', 'PPM RCM', Rev: 1, Len: 2804 -> SSDT-1-PPM RCM.aml
+21:254  0:026    Tables in Rsdt: 11
+21:254  0:000    0. FCD43: 'FACP', 'B10K', Rev: 1, Len: 116 -> RSDT-FACP.aml
+21:265  0:010        (Dsdt: FFE9E952, Facs: DFDF9C00)
+21:265  0:000        FFE9E952: 'DSDT', 'dt_ex', Rev: 1, Len: 19060
+22:096  0:831        DFDF9C00: 'FACS', Ver: 0, Len: 64
+22:096  0:000    1. FFEA34D7: 'SSDT', 'st_ex', Rev: 1, Len: 156
+22:096  0:000    2. FD009: 'BOOT', 'B10K', Rev: 1, Len: 40
+22:096  0:000    3. FD031: 'ASF!', 'B10K', Rev: 32, Len: 150
+22:096  0:000    4. FD0C7: 'MCFG', 'B10K', Rev: 1, Len: 60
+22:096  0:000    5. FD103: 'HPET', 'B10K', Rev: 1, Len: 56
+22:096  0:000    6. FD391: '____', 'B10K', Rev: 1, Len: 48
+22:096  0:000    7. FD35F: 'TCPA', 'B10K', Rev: 1, Len: 50
+22:096  0:000    8. FCEAB: 'APIC', 'B10K', Rev: 1, Len: 350
+22:096  0:000    9. FD13B: 'SLIC', 'B10K', Rev: 1, Len: 374
+22:096  0:000    10. DFE4DC00: 'SSDT', 'PPM RCM', Rev: 1, Len: 2804
+22:096  0:000  Found UEFI Acpi 2.0 RSDP at DFA29000
+22:096  0:000  Printing ACPI tables from RSDP DFA29000 ...
+22:096  0:000   DFA29000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+22:096  0:000    (Xsdt: FCCC7, Rsdt: FCC73)
+22:096  0:000    FCCC7: 'XSDT', 'B10K', Rev: 1, Len: 124
+22:096  0:000    FCC73: 'RSDT', 'B10K', Rev: 1, Len: 80
+22:096  0:000    Tables in Xsdt: 11
+22:096  0:000    0. FCDB7: 'FACP', 'B10K', Rev: 3, Len: 244
+22:096  0:000        (Dsdt: FFE9E952, Facs: DFDF9C00, XDsdt: FFE9E952, XFacs: DFDF9C00)
+22:096  0:000        FFE9E952: 'DSDT', 'dt_ex', Rev: 1, Len: 19060
+22:928  0:831        DFDF9C00: 'FACS', Ver: 0, Len: 64
+22:928  0:000    1. FFEA34D7: 'SSDT', 'st_ex', Rev: 1, Len: 156
+22:928  0:000    2. FCEAB: 'APIC', 'B10K', Rev: 1, Len: 350
+22:928  0:000    3. FD009: 'BOOT', 'B10K', Rev: 1, Len: 40
+22:928  0:000    4. FD031: 'ASF!', 'B10K', Rev: 32, Len: 150
+22:928  0:000    5. FD0C7: 'MCFG', 'B10K', Rev: 1, Len: 60
+22:928  0:000    6. FD103: 'HPET', 'B10K', Rev: 1, Len: 56
+22:928  0:000    7. FD35F: 'TCPA', 'B10K', Rev: 1, Len: 50
+22:928  0:000    8. FD391: '____', 'B10K', Rev: 1, Len: 48
+22:928  0:000    9. FD13B: 'SLIC', 'B10K', Rev: 1, Len: 374
+22:928  0:000    10. DFE4DC00: 'SSDT', 'PPM RCM', Rev: 1, Len: 2804
+22:928  0:000    Tables in Rsdt: 11
+22:928  0:000    0. FCD43: 'FACP', 'B10K', Rev: 1, Len: 116
+22:928  0:000        (Dsdt: FFE9E952, Facs: DFDF9C00)
+22:928  0:000        FFE9E952: 'DSDT', 'dt_ex', Rev: 1, Len: 19060
+23:760  0:831        DFDF9C00: 'FACS', Ver: 0, Len: 64
+23:760  0:000    1. FFEA34D7: 'SSDT', 'st_ex', Rev: 1, Len: 156
+23:760  0:000    2. FD009: 'BOOT', 'B10K', Rev: 1, Len: 40
+23:760  0:000    3. FD031: 'ASF!', 'B10K', Rev: 32, Len: 150
+23:760  0:000    4. FD0C7: 'MCFG', 'B10K', Rev: 1, Len: 60
+23:760  0:000    5. FD103: 'HPET', 'B10K', Rev: 1, Len: 56
+23:760  0:000    6. FD391: '____', 'B10K', Rev: 1, Len: 48
+23:760  0:000    7. FD35F: 'TCPA', 'B10K', Rev: 1, Len: 50
+23:760  0:000    8. FCEAB: 'APIC', 'B10K', Rev: 1, Len: 350
+23:760  0:000    9. FD13B: 'SLIC', 'B10K', Rev: 1, Len: 374
+23:760  0:000    10. DFE4DC00: 'SSDT', 'PPM RCM', Rev: 1, Len: 2804
